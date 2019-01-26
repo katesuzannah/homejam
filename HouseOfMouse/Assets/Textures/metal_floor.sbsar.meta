@@ -1,0 +1,96 @@
+fileFormatVersion: 2
+guid: e31f1853f4b3b9a4bb33bdd771b651d6
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: metal_floor
+    2800000: metal_floor - baseColor
+    2800002: metal_floor - normal
+    2800004: metal_floor - metallic
+    2800006: metal_floor - ambientOcclusion
+    2800008: metal_floor - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: metal_floor
+    prototypeName: metal_floor
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://metal_floor\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,ambientOcclusion,height
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: height
+      alphaSource: height
+    - outputName: mask
+      alphaSource: mask
+    textureParameters:
+    - textureName: metal_floor - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: metal_floor - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: metal_floor - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: metal_floor - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: metal_floor - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: metal_floor - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: metal_floor - UNKNOWN
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: mask
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
