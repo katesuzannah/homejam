@@ -1,0 +1,96 @@
+fileFormatVersion: 2
+guid: 51441b68ede9c7c499d2959c7e12b051
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Cloth
+    2800000: Cloth - diffuse
+    2800002: Cloth - normal
+    2800004: Cloth - metallic
+    2800006: Cloth - ambientOcclusion
+    2800008: Cloth - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Cloth
+    prototypeName: Cloth
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Cloth\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,metallic,ambientOcclusion,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Cloth - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cloth - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cloth - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cloth - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cloth - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cloth - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Cloth - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 1024
+      textureHeight: 1024
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
