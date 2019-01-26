@@ -84,5 +84,5 @@ ScriptedImporter:
       textureHeight: 256
       textureFormat: 0
       bGenerateOnLoad: 1
-    material: {instanceID: 0}
+    material: {fileID: 2100000, guid: 6dcdb97041ac1784fb15ac5f4603db59, type: 3}
     generatedTextures: []
