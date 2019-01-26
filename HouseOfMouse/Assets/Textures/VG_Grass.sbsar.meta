@@ -1,0 +1,92 @@
+fileFormatVersion: 2
+guid: 43abc352c2aca254c90352e5c5317e76
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Grass Generator
+    2800000: Grass Generator - diffuse
+    2800002: Grass Generator - normal
+    2800004: Grass Generator - metallic
+    2800006: Grass Generator - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Grass Generator
+    prototypeName: Grass Generator
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://VG_Grass\" label=\"\" >\n  <presetinput identifier=\"Grass_Amount\"
+      uid=\"2943873116\" type=\"4\" value=\"63\" />\n  <presetinput identifier=\"GrassLength\"
+      uid=\"2943872884\" type=\"0\" value=\"0.4\" />\n  <presetinput identifier=\"GrassThickness\"
+      uid=\"2943872883\" type=\"0\" value=\"0.2\" />\n  <presetinput identifier=\"Grass_depth_Position\"
+      uid=\"2943872692\" type=\"0\" value=\"0.46\" />\n  <presetinput identifier=\"GrassColor_Hue\"
+      uid=\"2943872322\" type=\"0\" value=\"0.494\" />\n  <presetinput identifier=\"GrassColor_Saturation\"
+      uid=\"2943872324\" type=\"0\" value=\"0.53\" />\n  <presetinput identifier=\"GrassColor_Lightness\"
+      uid=\"2943872326\" type=\"0\" value=\"0.418\" />\n  <presetinput identifier=\"DryGrassAmount\"
+      uid=\"2943860866\" type=\"4\" value=\"178\" />\n  <presetinput identifier=\"DryGrassThickness\"
+      uid=\"2920741546\" type=\"0\" value=\"0.66\" />\n  <presetinput identifier=\"DryGrassLength\"
+      uid=\"2920741518\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"DryGrassOpacity_Level_In_Mid\"
+      uid=\"2943874528\" type=\"0\" value=\"0.51\" />\n  <presetinput identifier=\"DryGrassColor_Saturation\"
+      uid=\"2943872501\" type=\"0\" value=\"0.539\" />\n  <presetinput identifier=\"DryGrassSoilDistance\"
+      uid=\"2920742146\" type=\"0\" value=\"0.57\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: diffuse,normal,metallic,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Grass Generator - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Grass Generator - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Grass Generator - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Grass Generator - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Grass Generator - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 43abc352c2aca254c90352e5c5317e76, type: 3}
+    generatedTextures: []
