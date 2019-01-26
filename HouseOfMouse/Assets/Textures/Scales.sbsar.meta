@@ -22,7 +22,22 @@ ScriptedImporter:
     graphDescIndex: 0
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://CreatureScales\" label=\"\" >\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://CreatureScales\" label=\"\" >\n  <presetinput
+      identifier=\"ScAngVar\" uid=\"4093585833\" type=\"0\" value=\"0.63\" />\n  <presetinput
+      identifier=\"ScSizeVar\" uid=\"4093591339\" type=\"0\" value=\"0.65\" />\n  <presetinput
+      identifier=\"ScRidgeCount\" uid=\"4093575737\" type=\"0\" value=\"20\" />\n
+      \ <presetinput identifier=\"ScRidgeCountVar\" uid=\"4093575872\" type=\"0\"
+      value=\"5.2\" />\n  <presetinput identifier=\"ScRidgeInt\" uid=\"4089506690\"
+      type=\"0\" value=\"0.2\" />\n  <presetinput identifier=\"ScStreakInt\" uid=\"4089506688\"
+      type=\"0\" value=\"0.43\" />\n  <presetinput identifier=\"NormalInt\" uid=\"4089499380\"
+      type=\"0\" value=\"4.8\" />\n  <presetinput identifier=\"ScaleRough\" uid=\"4089502353\"
+      type=\"0\" value=\"0.36\" />\n  <presetinput identifier=\"SurfDetailRough\"
+      uid=\"4089502197\" type=\"0\" value=\"0.65\" />\n  <presetinput identifier=\"ScMetalVal\"
+      uid=\"4089503622\" type=\"0\" value=\"0.87\" />\n  <presetinput identifier=\"ScMetalMid\"
+      uid=\"4089503669\" type=\"0\" value=\"0.36\" />\n  <presetinput identifier=\"AOSpread\"
+      uid=\"4093585506\" type=\"0\" value=\"0.08\" />\n  <presetinput identifier=\"AOColorContrib\"
+      uid=\"4089503363\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"AOOutInt\"
+      uid=\"4089502812\" type=\"0\" value=\"0.6\" />\n </sbspreset>\n"
     shaderName: Standard
     outputNames: baseColor,ambientOcclusion,metallic,normal,height
     texturePackingList:
@@ -84,5 +99,5 @@ ScriptedImporter:
       textureHeight: 256
       textureFormat: 0
       bGenerateOnLoad: 1
-    material: {instanceID: 0}
+    material: {fileID: 2100000, guid: 61aa7a62cb4d8854b80274c4eb590289, type: 3}
     generatedTextures: []

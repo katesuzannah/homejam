@@ -1,0 +1,82 @@
+fileFormatVersion: 2
+guid: 9a673ecd221f49c4fb35a790e0a37430
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Marble Generator v1.0
+    2800000: Marble Generator v1.0 - baseColor
+    2800002: Marble Generator v1.0 - normal
+    2800004: Marble Generator v1.0 - metallic
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Marble Generator v1.0
+    prototypeName: Marble Generator v1.0
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://MarbleGenerator01\" label=\"\" >\n  <presetinput
+      identifier=\"BaseColorA\" uid=\"1623824620\" type=\"3\" value=\"0.0821467,0.122642,0.0618993,1\"
+      />\n  <presetinput identifier=\"BaseColorB\" uid=\"1624696737\" type=\"3\" value=\"0.336542,0.339623,0.331613,1\"
+      />\n  <presetinput identifier=\"BaseColorBackgroundNoiseOpacity\" uid=\"1624544052\"
+      type=\"0\" value=\"0.7\" />\n  <presetinput identifier=\"BaseRoughness\" uid=\"1624521692\"
+      type=\"0\" value=\"0.44\" />\n  <presetinput identifier=\"NormalDamageIntensity\"
+      uid=\"1624566042\" type=\"0\" value=\"1.1\" />\n  <presetinput identifier=\"NormalDamageOpacity\"
+      uid=\"1624566404\" type=\"0\" value=\"0.33\" />\n  <presetinput identifier=\"SpecksIntensity\"
+      uid=\"1624517866\" type=\"0\" value=\"0.37\" />\n  <presetinput identifier=\"SpecksOpacity\"
+      uid=\"1624517195\" type=\"0\" value=\"0.62\" />\n  <presetinput identifier=\"PatternColor\"
+      uid=\"1623828414\" type=\"3\" value=\"0.889735,0.915094,0.71222,1\" />\n  <presetinput
+      identifier=\"PatternResolutionX\" uid=\"1623829692\" type=\"4\" value=\"48\"
+      />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    textureParameters:
+    - textureName: Marble Generator v1.0 - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Marble Generator v1.0 - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Marble Generator v1.0 - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Marble Generator v1.0 - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 9a673ecd221f49c4fb35a790e0a37430, type: 3}
+    generatedTextures: []

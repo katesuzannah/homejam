@@ -1,0 +1,99 @@
+fileFormatVersion: 2
+guid: 7490e9c9741afe94b89132db3a76edf9
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Apple
+    2800000: Apple - baseColor
+    2800002: Apple - normal
+    2800004: Apple - metallic
+    2800006: Apple - ambientOcclusion
+    2800008: Apple - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Apple
+    prototypeName: Apple
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Apple\" label=\"\" >\n  <presetinput identifier=\"Overall_Color_Variation\"
+      uid=\"3099355974\" type=\"0\" value=\"0.26\" />\n  <presetinput identifier=\"Overall_Color_Enhance\"
+      uid=\"3099355725\" type=\"0\" value=\"0.42\" />\n  <presetinput identifier=\"Streaks_Small_Opacity\"
+      uid=\"3099427321\" type=\"0\" value=\"0.22\" />\n  <presetinput identifier=\"Streaks_Small_Spread\"
+      uid=\"3099427104\" type=\"0\" value=\"0.76\" />\n  <presetinput identifier=\"Rough_Skin_Color\"
+      uid=\"3099284963\" type=\"3\" value=\"0.552941,0.388046,0.270588,1\" />\n  <presetinput
+      identifier=\"Rough_Skin_Top_Spread\" uid=\"3099282613\" type=\"1\" value=\"-0.31,0.5\"
+      />\n  <presetinput identifier=\"Rough_Skin_Top_Roughness\" uid=\"3099287274\"
+      type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Rough_Skin_Dots_Depth\"
+      uid=\"3098663904\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Skin_Deformation\"
+      uid=\"3098590185\" type=\"0\" value=\"0.49\" />\n  <presetinput identifier=\"Skin_Roughness_Variation\"
+      uid=\"3098585633\" type=\"0\" value=\"0.41\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,ambientOcclusion,height
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Apple - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Apple - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Apple - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Apple - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Apple - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Apple - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 7490e9c9741afe94b89132db3a76edf9, type: 3}
+    generatedTextures: []

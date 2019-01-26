@@ -1,0 +1,97 @@
+fileFormatVersion: 2
+guid: c422f958c19910d42915d927b0e501eb
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Herring Pattern wood
+    2800000: Herring Pattern wood - baseColor
+    2800002: Herring Pattern wood - normal
+    2800004: Herring Pattern wood - metallic
+    2800006: Herring Pattern wood - height
+    2800008: Herring Pattern wood - ambientOcclusion
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Herring Pattern wood
+    prototypeName: Herring Pattern wood
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://HerringBonePattern\" label=\"\" >\n  <presetinput
+      identifier=\"$randomseed\" uid=\"617393030\" type=\"4\" value=\"3943\" />\n
+      \ <presetinput identifier=\"inputforall\" uid=\"41963677\" type=\"4\" value=\"5\"
+      />\n  <presetinput identifier=\"Variation\" uid=\"86706325\" type=\"3\" value=\"1,-0.22,0.23,1\"
+      />\n  <presetinput identifier=\"Warp\" uid=\"86740791\" type=\"3\" value=\"0.07,-0.28,-0.26,1\"
+      />\n  <presetinput identifier=\"Glossiness\" uid=\"42241549\" type=\"0\" value=\"0.66\"
+      />\n  <presetinput identifier=\"lightness\" uid=\"90245311\" type=\"0\" value=\"0.491\"
+      />\n  <presetinput identifier=\"colour_highlights\" uid=\"90285924\" type=\"0\"
+      value=\"1\" />\n  <presetinput identifier=\"range_1\" uid=\"124992057\" type=\"0\"
+      value=\"0.52\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,ambientOcclusion
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: Herring Pattern wood - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Herring Pattern wood - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Herring Pattern wood - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Herring Pattern wood - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Herring Pattern wood - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Herring Pattern wood - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: c422f958c19910d42915d927b0e501eb, type: 3}
+    generatedTextures: []

@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: aff623ca4c2e4f249bf69349187ef820
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Silk Generic
+    2800000: Silk Generic - baseColor
+    2800002: Silk Generic - normal
+    2800004: Silk Generic - metallic
+    2800006: Silk Generic - ambientOcclusion
+    2800008: Silk Generic - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Silk Generic
+    prototypeName: Silk Generic
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://fabric_silk\" label=\"\" >\n  <presetinput
+      identifier=\"contrast\" uid=\"3449447960\" type=\"0\" value=\"0.3\" />\n  <presetinput
+      identifier=\"saturation\" uid=\"2989675648\" type=\"0\" value=\"0.4\" />\n  <presetinput
+      identifier=\"ao_spreading\" uid=\"3409705796\" type=\"0\" value=\"0.58\" />\n
+      \ <presetinput identifier=\"wrinkle\" uid=\"3455137788\" type=\"0\" value=\"0.65\"
+      />\n  <presetinput identifier=\"silk_roughness\" uid=\"3397645243\" type=\"0\"
+      value=\"0.68\" />\n  <presetinput identifier=\"silk_metallic\" uid=\"3397744636\"
+      type=\"0\" value=\"0.76\" />\n  <presetinput identifier=\"height_range\" uid=\"3390376908\"
+      type=\"0\" value=\"0.57\" />\n  <presetinput identifier=\"height_position\"
+      uid=\"3390376907\" type=\"0\" value=\"0.29\" />\n  <presetinput identifier=\"normal_intensity\"
+      uid=\"2989698036\" type=\"0\" value=\"0.35\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,ambientOcclusion,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Silk Generic - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Silk Generic - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Silk Generic - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Silk Generic - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Silk Generic - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Silk Generic - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Silk Generic - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Silk Generic - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Silk Generic - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: aff623ca4c2e4f249bf69349187ef820, type: 3}
+    generatedTextures: []
