@@ -4,7 +4,7 @@
     {
 		_MainTex("Base (RGB)", 2D) = "white" {}
 		_Mask("Mask Texture", 2D) = "white" {}
-		_Intensity("Intensity", Range(-2,2)) = 1.0
+		_Intensity("Intensity", Range(-5,5)) = 1.0
 		
 	
     }
@@ -51,7 +51,8 @@
 				fixed maskAmount = saturate(tex2D(_Mask, i.uv).r-_Intensity);
 
 				fixed4 output;
-				output.rgb = lerp(original.rgb, fixed3(lum,lum,lum), maskAmount);
+				half test = lerp(0, 0.5, maskAmount);
+				output.rgb = lerp(original.rgb, fixed3(lum,lum,lum),test);
 				output.a = original.a;
 				return output;
             }
