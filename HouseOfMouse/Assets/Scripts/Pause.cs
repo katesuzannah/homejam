@@ -7,6 +7,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class Pause : MonoBehaviour {
     public GameObject player;
     public GameObject pauseCanvas;
+    public GameObject reticleCanvas;
     bool paused = false;
     
     void Start() {
@@ -15,13 +16,16 @@ public class Pause : MonoBehaviour {
     
     void Update() {
         if (Input.GetKeyDown(KeyCode.Escape)) {
-            this.PlayPause();
+            if (!paused) {
+                this.PlayPause();
+            }
         }
     }
 
     public void PlayPause() {
         if (!paused) {
             paused = true;
+            reticleCanvas.SetActive(false);
             player.SetActive(false);
             pauseCanvas.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
@@ -29,6 +33,7 @@ public class Pause : MonoBehaviour {
             Cursor.visible = true;
         }
         else {
+            reticleCanvas.SetActive(true);
             paused = false; 
             player.SetActive(true);
             pauseCanvas.SetActive(false);
