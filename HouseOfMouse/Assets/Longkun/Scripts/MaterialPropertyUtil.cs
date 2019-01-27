@@ -33,7 +33,7 @@ public class MaterialPropertyUtil
   }
   public static IEnumerator LerpPropertyBlockFloat(Renderer renderer, int floatPropertyID, float from, float to, float duration) {
     float t = 0;
-    while (t < duration) {
+    while ( duration - t >=0.0001f) {
       float f = Mathf.Lerp(from, to, t / duration);
       SetPropertyBlockFloat(renderer, floatPropertyID, f);
 
