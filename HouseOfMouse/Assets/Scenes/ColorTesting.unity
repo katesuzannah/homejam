@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571334, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -689,6 +689,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 13a22927dc86b4692af8f3d98bbcb60a, type: 2}
+    - target: {fileID: 400036, guid: 2147d92868fedc0419b5b35e9549f417, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2068
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2147d92868fedc0419b5b35e9549f417, type: 3}
 --- !u!1 &297658506 stripped
@@ -1588,6 +1592,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e782ea5c254ec405c80d6c9e69fa3b9e, type: 2}
+    - target: {fileID: 2300046, guid: b23781a241536804ab4e5c37d88fb424, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bbf27dda02f04084db54cead04c47b9d, type: 2}
     - target: {fileID: 2300042, guid: b23781a241536804ab4e5c37d88fb424, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1596,10 +1604,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e782ea5c254ec405c80d6c9e69fa3b9e, type: 2}
-    - target: {fileID: 2300046, guid: b23781a241536804ab4e5c37d88fb424, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bbf27dda02f04084db54cead04c47b9d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b23781a241536804ab4e5c37d88fb424, type: 3}
 --- !u!1 &938711043 stripped
@@ -2218,6 +2222,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e782ea5c254ec405c80d6c9e69fa3b9e, type: 2}
+    - target: {fileID: 2300046, guid: b23781a241536804ab4e5c37d88fb424, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bbf27dda02f04084db54cead04c47b9d, type: 2}
     - target: {fileID: 2300042, guid: b23781a241536804ab4e5c37d88fb424, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2226,10 +2234,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e782ea5c254ec405c80d6c9e69fa3b9e, type: 2}
-    - target: {fileID: 2300046, guid: b23781a241536804ab4e5c37d88fb424, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bbf27dda02f04084db54cead04c47b9d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b23781a241536804ab4e5c37d88fb424, type: 3}
 --- !u!1 &1396433273 stripped
@@ -2800,6 +2804,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_ForceIntoRT
       value: 1
@@ -2807,10 +2815,6 @@ PrefabInstance:
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_HDR
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
@@ -2994,6 +2998,7 @@ MonoBehaviour:
   m_fpsCam: {fileID: 2089579782}
   m_texturePreset: {fileID: 11400000, guid: 7df9c5dd28d9b1b43ae2db13a2dbe0c7, type: 2}
   m_lineRenderer: {fileID: 1778426956}
+  sfx: {fileID: 0}
 --- !u!120 &1778426956
 LineRenderer:
   m_ObjectHideFlags: 0
