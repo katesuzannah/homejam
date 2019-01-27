@@ -2724,6 +2724,7 @@ GameObject:
   - component: {fileID: 909109338}
   - component: {fileID: 909109337}
   - component: {fileID: 909109343}
+  - component: {fileID: 909109344}
   m_Layer: 0
   m_Name: BedroomTriggerVolume
   m_TagString: Untagged
@@ -2931,6 +2932,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91b3dad2817ba4cca8ae62f5c5aba517, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &909109344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909109336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e76166addf741d28fee2746aa22756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerVolume: {fileID: 909109339}
+  enterValue: 1
+  enterLerpTime: 1
+  exitValue: 0
+  exitLerpTime: 1
+  messageReceiver: {fileID: 2135996246}
 --- !u!1 &913944177 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 3bd71f768e221e742b6d46c151327bd0,
@@ -7720,6 +7739,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 253adf631f13f43e6bc63c9f721ebe01, type: 3}
+--- !u!1 &2135996246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6046911314105260306, guid: 253adf631f13f43e6bc63c9f721ebe01,
+    type: 3}
+  m_PrefabInstance: {fileID: 2135996245}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2142783626 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100026, guid: 9b38792d650f36b4b997bf6620767a9e,
