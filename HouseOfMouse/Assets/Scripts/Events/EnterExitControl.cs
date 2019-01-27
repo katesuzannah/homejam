@@ -28,6 +28,9 @@ public abstract class EnterExitControl : MonoBehaviour
 	//public float controlValue;
 	public Collider triggerVolume;
 
+	//public bool fireOnce;
+	//bool fired;
+
 	public float enterValue = 1f;
 	public float enterLerpTime = 1f;
 	public float exitValue = 0f;
@@ -78,5 +81,11 @@ public abstract class EnterExitControl : MonoBehaviour
 			yield return null;
 		}
 	}
+
+	//protected void ManageFiredState() {
+	//	if (fireOnce) {
+	//		fired = true;
+	//	}
+	//}
 
 }
