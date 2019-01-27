@@ -17,6 +17,8 @@ public class DesaturationEffect : MonoBehaviour
       enabled = false;
       return;
     }
+
+		m_renderMat.SetFloat("_Intensity", -2f);
   }
     // Update is called once per frame
     void Update() {

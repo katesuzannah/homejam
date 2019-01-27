@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9361ce1b949ec647a5b24aa4cc4196d, type: 3}
   m_Name: LivingRoomPreset
   m_EditorClassIdentifier: 
-  m_colors: []
+  m_colors:
+  - {r: 0.01886791, g: 0, b: 0, a: 0}
+  - {r: 0.6698113, g: 0.041073352, b: 0.041073352, a: 0}
+  - {r: 0.8207547, g: 0.47850358, b: 0.15098791, a: 0}

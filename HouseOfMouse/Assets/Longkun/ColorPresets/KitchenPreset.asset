@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9361ce1b949ec647a5b24aa4cc4196d, type: 3}
   m_Name: KitchenPreset
   m_EditorClassIdentifier: 
-  m_colors: []
+  m_colors:
+  - {r: 0, g: 0.13826828, b: 0.9150943, a: 0}
+  - {r: 0.6792453, g: 0, b: 0.6103142, a: 0}
+  - {r: 0, g: 0.91391253, b: 1, a: 0}
