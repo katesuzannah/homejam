@@ -33,7 +33,7 @@ public class ColorAssigner : MonoBehaviour
       m_lastHitObject = null;
     }
       if (m_isRayHit) {
-        Debug.Log("Hit");
+        //Debug.Log("Hit");
         m_currentHitObject = m_raycastHit.transform;
         Renderer r = m_currentHitObject.GetComponent<Renderer>();
     
