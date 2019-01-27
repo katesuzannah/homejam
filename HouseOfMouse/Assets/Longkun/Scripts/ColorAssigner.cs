@@ -9,8 +9,8 @@ public class ColorAssigner : MonoBehaviour
   RaycastHit m_raycastHit;
   bool m_isRayHit;
   public ColorPreset m_colorPreset;
-  Transform m_lastHitObject;
-  Transform m_currentHitObject;
+  public Transform m_lastHitObject;
+  public Transform m_currentHitObject;
   LayerMask m_defaultLayer;
 
 	public ClickSFXPlayer sfx;

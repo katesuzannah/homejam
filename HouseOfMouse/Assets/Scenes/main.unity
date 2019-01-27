@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 247346205}
   - component: {fileID: 247346204}
   - component: {fileID: 247346203}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LivingRoomTriggerVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -748,7 +748,7 @@ GameObject:
   - component: {fileID: 334903641}
   - component: {fileID: 334903640}
   - component: {fileID: 334903642}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Color Swapper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1894,19 +1894,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.7442388
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.6679137
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
@@ -1918,7 +1918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 96.188
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2005,6 +2005,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_fpsCam: {fileID: 602125308}
   m_colorPreset: {fileID: 11400000, guid: a9b242fdbdb5e3741840f4ae7eaefd25, type: 2}
+  m_lastHitObject: {fileID: 0}
+  m_currentHitObject: {fileID: 0}
   sfx: {fileID: 602125313}
 --- !u!114 &602125312
 MonoBehaviour:
@@ -2782,7 +2784,7 @@ GameObject:
   - component: {fileID: 909109337}
   - component: {fileID: 909109343}
   - component: {fileID: 909109344}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BedroomTriggerVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3541,7 +3543,7 @@ GameObject:
   - component: {fileID: 1036708848}
   - component: {fileID: 1036708847}
   - component: {fileID: 1036708846}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: KitchenTriggerVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6548,7 +6550,7 @@ GameObject:
   - component: {fileID: 1998386695}
   - component: {fileID: 1998386694}
   - component: {fileID: 1998386693}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: StairwayTriggerVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
