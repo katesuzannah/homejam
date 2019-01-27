@@ -10,10 +10,12 @@ public class TextureAssigner : MonoBehaviour
   bool m_isRayHit;
   public TexturePreset m_texturePreset;
   public LineRenderer m_lineRenderer;
+
+	public ClickSFXPlayer sfx;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -25,6 +27,9 @@ public class TextureAssigner : MonoBehaviour
       m_isRayHit = Physics.Raycast(m_checkRay, out m_raycastHit, 50);
       if (m_isRayHit) {
         Debug.Log("Hit");
+
+				sfx.PlaySFX();
+
         Renderer r = m_raycastHit.transform.GetComponent<Renderer>();
         if (m_texturePreset != null) {
           m_texturePreset.AssignRandomTextureRegular(r.material);
