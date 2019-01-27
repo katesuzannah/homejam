@@ -13,6 +13,8 @@ public class ColorAssigner : MonoBehaviour
   Transform m_currentHitObject;
   LayerMask m_defaultLayer;
 
+	public ClickSFXPlayer sfx;
+
 
   // Start is called before the first frame update
   void Start() {
@@ -44,6 +46,7 @@ public class ColorAssigner : MonoBehaviour
       if (Input.GetMouseButtonDown(0)) {
         if (m_colorPreset != null) {
           if (r != null) {
+						sfx.PlaySFX();
             m_colorPreset.AssignRandomColorRegular(r.material);
 
             StartCoroutine(MaterialPropertyUtil.LerpMaterialFloat(r.material, Shader.PropertyToID("_SwipRange"), 0f, 1f, 0.5f));
