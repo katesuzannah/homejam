@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 9b38792d650f36b4b997bf6620767a9e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bench_59
+    100002: bench_60
+    100004: benchCushion_60
+    100006: benchCushion_61
+    100008: benchCushion_62
+    100010: benchCushion_63
+    100012: //RootNode
+    100014: group16
+    100016: group2
+    100018: group3
+    100020: kitchenCabinet_72
+    100022: kitchenCabinetCornerInner_70
+    100024: kitchenCabinetDrawer_71
+    100026: kitchenFridgeLarge_68
+    100028: kitchenMicrowave_74
+    100030: kitchenSink_73
+    100032: kitchenStoveElectric_64
+    100034: loungeChair_45
+    100036: loungeSofa_16
+    100038: rugRounded_17
+    100040: tableCloth_44
+    100042: tableCoffee_47
+    400000: bench_59
+    400002: bench_60
+    400004: benchCushion_60
+    400006: benchCushion_61
+    400008: benchCushion_62
+    400010: benchCushion_63
+    400012: //RootNode
+    400014: group16
+    400016: group2
+    400018: group3
+    400020: kitchenCabinet_72
+    400022: kitchenCabinetCornerInner_70
+    400024: kitchenCabinetDrawer_71
+    400026: kitchenFridgeLarge_68
+    400028: kitchenMicrowave_74
+    400030: kitchenSink_73
+    400032: kitchenStoveElectric_64
+    400034: loungeChair_45
+    400036: loungeSofa_16
+    400038: rugRounded_17
+    400040: tableCloth_44
+    400042: tableCoffee_47
+    2100000: metal
+    2100002: wood
+    2100004: woodDark
+    2100006: metalDark
+    2100008: carpetWhite
+    2100010: glass
+    2100012: metalMedium
+    2100014: metalLight
+    2100016: _defaultMat
+    2100018: carpet
+    2100020: carpetDarker
+    2300000: bench_59
+    2300002: bench_60
+    2300004: benchCushion_60
+    2300006: benchCushion_61
+    2300008: benchCushion_62
+    2300010: benchCushion_63
+    2300012: kitchenCabinet_72
+    2300014: kitchenCabinetCornerInner_70
+    2300016: kitchenCabinetDrawer_71
+    2300018: kitchenFridgeLarge_68
+    2300020: kitchenMicrowave_74
+    2300022: kitchenSink_73
+    2300024: kitchenStoveElectric_64
+    2300026: loungeChair_45
+    2300028: loungeSofa_16
+    2300030: rugRounded_17
+    2300032: tableCloth_44
+    2300034: tableCoffee_47
+    3300000: bench_59
+    3300002: bench_60
+    3300004: benchCushion_60
+    3300006: benchCushion_61
+    3300008: benchCushion_62
+    3300010: benchCushion_63
+    3300012: kitchenCabinet_72
+    3300014: kitchenCabinetCornerInner_70
+    3300016: kitchenCabinetDrawer_71
+    3300018: kitchenFridgeLarge_68
+    3300020: kitchenMicrowave_74
+    3300022: kitchenSink_73
+    3300024: kitchenStoveElectric_64
+    3300026: loungeChair_45
+    3300028: loungeSofa_16
+    3300030: rugRounded_17
+    3300032: tableCloth_44
+    3300034: tableCoffee_47
+    4300000: kitchenCabinet_72
+    4300002: kitchenStoveElectric_64
+    4300004: kitchenCabinetCornerInner_70
+    4300006: kitchenSink_73
+    4300008: kitchenCabinetDrawer_71
+    4300010: kitchenFridgeLarge_68
+    4300012: kitchenMicrowave_74
+    4300014: loungeChair_45
+    4300016: loungeSofa_16
+    4300018: rugRounded_17
+    4300020: tableCoffee_47
+    4300022: tableCloth_44
+    4300024: benchCushion_60
+    4300026: bench_59
+    4300028: benchCushion_61
+    4300030: benchCushion_62
+    4300032: benchCushion_63
+    4300034: bench_60
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
