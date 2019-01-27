@@ -16,23 +16,19 @@ public class HouseSwapper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Swap();
-        }
     }
 
     void Swap()
     {
-        if (warmHouse.activeInHierarchy)
-        {
-            warmHouse.SetActive(false);
-            coolHouse.SetActive(true);
-        }
-        else
-        {
+        if (!warmHouse.activeInHierarchy) { 
             warmHouse.SetActive(true);
             coolHouse.SetActive(false);
         }
     }
+
+  private void OnTriggerEnter(Collider other) {
+    if (other.tag == "Player") {
+      Swap();
+    }
+  }
 }
