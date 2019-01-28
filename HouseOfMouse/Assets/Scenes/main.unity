@@ -2004,7 +2004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_fpsCam: {fileID: 602125308}
-  m_colorPreset: {fileID: 11400000, guid: a9b242fdbdb5e3741840f4ae7eaefd25, type: 2}
+  m_colorPreset: {fileID: 11400000, guid: 823c3c92a6388b84c816c46c85cb5e6a, type: 2}
   m_lastHitObject: {fileID: 0}
   m_currentHitObject: {fileID: 0}
   sfx: {fileID: 602125313}
