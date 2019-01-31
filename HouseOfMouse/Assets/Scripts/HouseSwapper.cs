@@ -18,8 +18,9 @@ public class HouseSwapper : MonoBehaviour
     {
     }
 
-    void Swap()
+    IEnumerator Swap()
     {
+        yield return new WaitForSeconds(4f);
         if (!warmHouse.activeInHierarchy) { 
             warmHouse.SetActive(true);
             coolHouse.SetActive(false);
@@ -28,7 +29,7 @@ public class HouseSwapper : MonoBehaviour
 
   private void OnTriggerEnter(Collider other) {
     if (other.tag == "Player") {
-      Swap();
+      StartCoroutine(Swap());
     }
   }
 }
