@@ -1,4 +1,9 @@
-﻿Shader "Hidden/ScanRingEffect"
+﻿// Upgrade NOTE: commented out 'float4x4 _CameraToWorld', a built-in variable
+// Upgrade NOTE: replaced '_CameraToWorld' with 'unity_CameraToWorld'
+
+// Upgrade NOTE: commented out 'float4x4 _CameraToWorld', a built-in variable
+
+Shader "Hidden/ScanRingEffect"
 {
     Properties
     {
@@ -27,6 +32,7 @@
             {
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
+				float3 worldDir : TEXCOORD1;
             };
 
             v2f vert (appdata v)
@@ -34,16 +40,36 @@
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = v.uv;
+				float near = _ProjectionParams.y;
+				float4 D = mul(unity_CameraToWorld, float4(o.uv.xy*2-1,near,1));
+				D.xyz /= D.w;
+				D.xyz -= _WorldSpaceCameraPos;
+				float4 D0 = mul(unity_CameraToWorld,float4(0,0,near,1));
+				D0.xyz /= D0.w;
+				D0.xyz -= _WorldSpaceCameraPos;
+				o.worldDir = D.xyz / length(D0.xyz);
                 return o;
             }
 
-            sampler2D _MainTex;
+          
+			sampler2D _CameraDepthTexture;
+			sampler2D _MainTex;
+			
 
             fixed4 frag (v2f i) : SV_Target
             {
-                fixed4 col = tex2D(_MainTex, i.uv);
-                // just invert the colors
-                col.rgb = 1 - col.rgb;
+				float depth = LinearEyeDepth(SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, i.uv)).r;
+				
+			float3 wpos = (i.worldDir*depth) + _WorldSpaceCameraPos;
+				fixed4 col;
+				if (length(wpos) >= 50 && length(wpos) <= 51) {
+					col = float4(1, 0, 0, 1);
+				}
+				else {
+					col = tex2D(_MainTex, i.uv);
+				}
+                
+         
                 return col;
             }
             ENDCG
