@@ -49,7 +49,7 @@ public class ColorAssigner : MonoBehaviour
 						sfx.PlaySFX();
             m_colorPreset.AssignRandomColorRegular(r.material);
 
-            StartCoroutine(MaterialPropertyUtil.LerpMaterialFloat(r.material, Shader.PropertyToID("_SwipRange"), 0f, 1f, 0.5f));
+            StartCoroutine(MaterialPropertyUtil.LerpMaterialFloat(r.material, Shader.PropertyToID("_SwipRange"), 0f, 1f, 0.8f));
           }
         
 
