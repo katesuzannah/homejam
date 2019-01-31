@@ -26,7 +26,7 @@ public class VolumeEvent : EnterExitControl {
 		float startingVal = source.volume;
 
 		while (timeElapsed < timeToLerp) {
-			Debug.Log("control value = " + source.volume);
+//			Debug.Log("control value = " + source.volume);
 			source.volume = Mathf.Lerp(startingVal, targetVal, timeElapsed / timeToLerp);
 			timeElapsed += Time.deltaTime;
 			yield return null;

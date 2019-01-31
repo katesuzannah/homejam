@@ -7,8 +7,10 @@ public class DoorbellPlayer : MonoBehaviour, MessengerEventReceiver
 
 	public float timeToWait = 15f;
 	public AudioSource source;
+	public Collider col;
 
 	public void OnEventTriggerVolumeEnter(MessageParameters parameters) {
+		col.enabled = true;
 		StartCoroutine(WaitAndPlayDoorbell());
 	}
 
@@ -20,5 +22,7 @@ public class DoorbellPlayer : MonoBehaviour, MessengerEventReceiver
 	IEnumerator WaitAndPlayDoorbell() {
 		yield return new WaitForSeconds(timeToWait);
 		source.Play();
+		timeToWait = Mathf.Max(15f, timeToWait * .75f);
+		StartCoroutine(WaitAndPlayDoorbell());
 	}
 }

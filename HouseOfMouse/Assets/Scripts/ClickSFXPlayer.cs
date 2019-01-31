@@ -10,6 +10,8 @@ public class ClickSFXPlayer : MonoBehaviour
 	int lastPlayedIndex;
 	public AudioSource source;
 
+
+
 	public void PlaySFX() {
 		int newIndex = Random.Range(0, clips.Count - 1);
 

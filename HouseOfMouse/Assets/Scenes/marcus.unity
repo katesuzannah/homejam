@@ -1713,6 +1713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_fpsCam: {fileID: 602125308}
   m_colorPreset: {fileID: 11400000, guid: a9b242fdbdb5e3741840f4ae7eaefd25, type: 2}
+  m_lastHitObject: {fileID: 0}
+  m_currentHitObject: {fileID: 0}
   sfx: {fileID: 602125313}
 --- !u!114 &602125312
 MonoBehaviour:
@@ -6672,6 +6674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2056521918}
   - component: {fileID: 2056521919}
+  - component: {fileID: 2056521920}
   m_Layer: 0
   m_Name: ClickSFX
   m_TagString: Untagged
@@ -6790,6 +6793,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2056521920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056521917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82e9900a9b8c4172a01f4cf0a2b0b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerVolume: {fileID: 909109339}
+  enterValue: 0
+  enterLerpTime: 3
+  exitValue: 0
+  exitLerpTime: 1
 --- !u!1 &2061830206
 GameObject:
   m_ObjectHideFlags: 0
@@ -7170,6 +7190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6046911314105260307, guid: 253adf631f13f43e6bc63c9f721ebe01,
+        type: 3}
+      propertyPath: timeToWait
+      value: 45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 253adf631f13f43e6bc63c9f721ebe01, type: 3}
